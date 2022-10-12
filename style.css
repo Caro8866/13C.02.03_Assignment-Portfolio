@@ -171,3 +171,14 @@ header p {
 #scrollBtn {
   color: white;
 }
+
+/** Lead Text */
+
+.lead-text {
+  margin: 2rem 0;
+  font-family: var(--ff-primary);
+  font-size: var(--fs-700);
+  font-weight: var(--fw-bold);
+  line-height: 1.4;
+  color: red;
+}
