@@ -1,0 +1,134 @@
+/** CSS RESET **/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: normal;
+}
+html {
+  font-size: 16px;
+  /* background-color: rgb(21, 20, 23);
+  color: rgb(223, 223, 232); */
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+:root {
+  /* color propsˆ */
+  --color-primary1: #104270;
+  --color-primary2: #eee3cb;
+  --color-secondary1: #226f9c;
+  --color-secondary2: #0d3c57;
+  --color-accent1: #b7483d;
+  --color-accent3: #db7c5f;
+  --color-accent2: #2b6eb5;
+}
+
+.container {
+  width: min(1000px, 100% - (1rem * 2));
+  margin-inline: auto;
+}
+
+/** Navigation Menu */
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--color-secondary2);
+}
+
+nav a {
+  color: var(--color-primary1);
+  text-decoration: none;
+}
+
+/* nav a.logo {
+  font-family: "Noto Serif Display", serif;
+  font-size: 1.25rem;
+  font-weight: bold;
+} */
+
+nav li {
+  display: inline-block;
+  margin: 0px 1rem;
+}
+
+/** JUMBOTRON */
+header {
+  height: 100vh;
+}
+.hero-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.profileImage {
+  /*   background-image: url(assets/CarolineThostrup.png); */
+  aspect-ratio: 1/1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 350px;
+  border-radius: 100%;
+}
+/** ASSIGNMENT LIST */
+.assignments ol {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.assignment {
+  border-bottom: 2px solid black;
+}
+.assignment > a {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  background-color: red;
+  padding: 3rem;
+  justify-content: space-between;
+}
+
+.assignment h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+
+#fonts-link:hover {
+}
+
+/* copied from my deep dive project */
+.banner-box {
+  overflow: hidden;
+}
+
+.bannerH {
+  white-space: nowrap;
+  position: relative;
+  background-color: red;
+  color: white;
+}
+
+.sideScroll {
+  display: inline-block;
+  animation: sideScroll 1800s linear infinite;
+}
+
+@keyframes sideScroll {
+  100% {
+    transform: translateX(-100%);
+  }
+}
