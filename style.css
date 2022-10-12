@@ -252,3 +252,28 @@ header p {
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1rem; /* Also needed for space (tweak if needed) */
 }
+
+/** Footer Navigation */
+
+footer nav {
+  display: flex;
+  flex-flow: column nowrap;
+  background-color: red;
+  padding: 1rem 0 2rem 0;
+}
+#social-links {
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 1rem;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+#site-nav {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+
+#site-nav a {
+  color: white;
+}
