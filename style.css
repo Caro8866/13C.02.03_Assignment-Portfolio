@@ -22,3 +22,82 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+/*! Custom variables */
+
+:root {
+  /** Font properties */
+  --ff-primary: "Lora", serif;
+  --ff-secondary: "Ubuntu", sans-serif;
+
+  --ff-heading: var(--ff-primary);
+  --ff-body: var(--ff-secondary);
+
+  --fs-100: 0.354rem;
+  --fs-200: 0.5rem;
+  --fs-300: 0.707rem;
+  --fs-400: 1rem;
+  --fs-500: 1.414rem;
+  --fs-600: 1.999rem;
+  --fs-700: 2.827rem;
+  --fs-800: 3.998rem;
+  --fs-900: 5.653rem;
+
+  --fw-black: 900;
+  --fw-extra-bold: 800;
+  --fw-bold: 700;
+  --fw-medium: 600;
+  --fw-semi-bold: 500;
+  --fw-regular: 400;
+  --fw-light: 300;
+  --fw-extra-light: 200;
+  --fw-thin: 100;
+}
+
+/** Headings */
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--ff-primary);
+  line-height: 1.1;
+}
+
+h1 {
+  font-size: var(--fs-900);
+  font-weight: var(--fw-bold);
+  line-height: 0.8;
+}
+
+h2 {
+  font-size: var(--fs-800);
+  font-weight: var(--fw-medium);
+}
+
+h3 {
+  font-size: var(--fs-700);
+  font-weight: var(--fw-semi-bold);
+}
+
+h4 {
+  font-size: var(--fs-600);
+  font-weight: var(--fw-regular);
+}
+
+/** Body */
+p {
+  font-family: var(--ff-secondary);
+  font-weight: var(--fw-regular);
+  line-height: 1.5;
+}
+
+a {
+  font-family: var(--ff-secondary);
+  font-weight: var(--fw-regular);
+}
+/*! Header Navigation Styling */
+.logo {
+  font-family: var(--ff-heading);
+  font-size: var(--fs-600);
+  font-weight: var(--fw-bold);
+}
