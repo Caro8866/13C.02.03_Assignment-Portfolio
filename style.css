@@ -105,7 +105,14 @@ p {
 
 a {
   font-family: var(--ff-secondary);
-  font-weight: var(--fw-regular);
+  font-weight: var(--fw-medium);
+  font-weight: var(--fw-medium);
+  cursor: pointer;
+  overflow: hidden;
+  height: auto;
+  width: auto;
+  display: inline-block;
+  text-decoration: none;
 }
 /*? Mobile-First approach */
 
