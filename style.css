@@ -324,7 +324,7 @@ footer nav {
   transform-origin: top;
   height: 100vh;
   width: 8px;
-  background-color: red;
+  background-color: #f49fbc;
   top: 0px;
 }
 
@@ -341,4 +341,20 @@ a::after {
 a:hover::after {
   transition: all 0.4s ease-in-out;
   transform: translate(100%, 0) scaleX(100%);
+}
+
+/* Scroll to top button */
+.scrollToTop {
+  position: fixed;
+  right: 2rem;
+  bottom: 5rem;
+  background-color: #f49fbc;
+  color: black;
+  font-size: 2rem;
+  padding: 0.5rem 1rem;
+  margin: auto;
+  border-radius: 25%;
+  border: 10px black;
+  display: none;
+  z-index: 100;
 }
