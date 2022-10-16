@@ -26,3 +26,11 @@ function scrollToTop() {
   console.log("scrolling");
   scrollToTopBtn.style.display = "hidden";
 }
+
+/* Paralax Text - klaus inspired*/
+document.querySelectorAll(".parallax-scroll-section .parallax-text").forEach((article) => {
+  const parralaxText = article.querySelector("p");
+  scroll(animate(parralaxText, { y: ["-10vh", "10vh"] }), {
+    target: parralaxText,
+  });
+});

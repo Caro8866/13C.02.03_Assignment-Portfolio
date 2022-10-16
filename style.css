@@ -386,3 +386,57 @@ a:hover::after {
   z-index: 100;
   cursor: pointer;
 }
+
+/* Parallax */
+.parrallax-scroll-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+
+/* Project Styling */
+
+.fontUi-Hero {
+  background-image: url(assets/13C.01.01/13C.01.01-MockUp.png);
+  background-size: cover;
+}
+
+.intro-section {
+  gap: 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 2rem auto 3rem;
+}
+
+.intro-section h1 {
+  font-size: calc(var(--fs-900) * 0.6);
+  margin-bottom: 0;
+  line-height: 0.3;
+}
+.intro-section .title h2 {
+  font-size: calc(var(--fs-800) * 0.3);
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  color: red;
+}
+
+.detail-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.detail-image {
+  grid-column: span 2;
+}
+.detail-2 img {
+  order: 2;
+  grid-column: span 1;
+}
+
+.detail-2 p {
+  grid-column: span 2;
+}
