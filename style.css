@@ -50,6 +50,11 @@ img {
   --fw-light: 300;
   --fw-extra-light: 200;
   --fw-thin: 100;
+
+  --color-primary1: #df4353;
+  --color-primary4: #f49fbc;
+  --color-primary5: #eed7dd;
+  --color-secondary1: #242323;
 }
 
 html {
@@ -125,13 +130,13 @@ a {
   text-align: center;
   margin-bottom: 1rem;
   text-decoration: none;
-  color: white;
+  color: var(--color-primary5);
 }
 
 header nav {
   display: flex;
   flex-flow: column nowrap;
-  background-color: red;
+  background-color: var(--color-primary1);
   padding: 1rem 0;
 }
 
@@ -142,26 +147,26 @@ header nav ul {
 }
 
 header nav ul a {
-  color: white;
+  color: var(--color-primary5);
 }
 
 /** Header Hero */
 header {
-  background-color: rgb(36, 35, 35);
+  background-color: var(--color-secondary1);
   height: 100vh;
   align-items: center;
 }
 
 .profile-image {
   margin: 1rem auto 0 auto;
-  background-color: red;
+  background-color: var(--color-primary1);
   height: 50vh;
   width: 100%;
 }
 
 header h1 {
   font-size: calc((var(--fs-900)) * 0.7);
-  color: red;
+  color: var(--color-primary1);
   text-transform: uppercase;
   width: 100%;
   text-align: center;
@@ -169,14 +174,14 @@ header h1 {
 
 header p {
   color: grey;
-  border-top: 2px solid white;
+  border-top: 2px solid var(--color-primary5);
   padding-top: 1rem;
   max-width: 60ch;
   margin-bottom: 1rem;
 }
 
 #scrollBtn {
-  color: white;
+  color: var(--color-primary5);
 }
 
 /** Lead Text */
@@ -189,13 +194,13 @@ header p {
   font-size: var(--fs-700);
   font-weight: var(--fw-bold);
   line-height: 1.4;
-  color: red;
+  color: var(--color-primary1);
 }
 
 /** Projects */
 .darkBgLightCol {
-  background-color: rgb(36, 35, 35);
-  color: white;
+  background-color: var(--color-secondary1);
+  color: var(--color-primary5);
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
@@ -220,29 +225,29 @@ header p {
 }
 
 .project-number {
-  color: white;
+  color: var(--color-primary5);
   font-weight: var(--fw-thin);
 }
 .project-name {
-  color: white;
+  color: var(--color-primary5);
   font-weight: var(--fw-bold);
 }
 
 .project-item a {
-  color: red;
+  color: var(--color-primary1);
   font-weight: var(--fw-bold);
   text-decoration: none;
 }
 
 /** Reflection Section */
 .reflection-section {
-  color: black;
+  color: var(--color-secondary1);
   padding: 2rem 0;
   font-family: var(--ff-secondary);
 }
 
 .reflection-section h2 {
-  color: red;
+  color: var(--color-primary1);
   text-align: center;
   padding-bottom: 2rem;
 }
@@ -256,7 +261,7 @@ header p {
 /* https://www.w3schools.com/HOWTO/howto_css_bullet_color.asp */
 .reflection-section li::before {
   content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
-  color: red; /* Change the color */
+  color: var(--color-primary1); /* Change the color */
   font-weight: bold; /* If you want it to be bold */
   display: inline-block; /* Needed to add space between the bullet and the text */
   width: 1rem; /* Also needed for space (tweak if needed) */
@@ -267,7 +272,7 @@ header p {
 footer nav {
   display: flex;
   flex-flow: column nowrap;
-  background-color: red;
+  background-color: var(--color-primary1);
   padding: 1rem 0 2rem 0;
 }
 #social-links {
@@ -302,13 +307,13 @@ footer nav {
 }
 
 #site-nav a {
-  color: white;
+  color: var(--color-primary5);
 }
 .copyrightlink {
   display: flex;
   align-self: center;
   opacity: 0.01;
-  background-color: red;
+  background-color: var(--color-primary1);
   height: 0;
 }
 
@@ -362,7 +367,7 @@ footer nav {
   transform-origin: top;
   height: 100vh;
   width: 8px;
-  background-color: #f49fbc;
+  background-color: var(--color-primary4);
   top: 0px;
 }
 
@@ -373,7 +378,7 @@ a::after {
   height: 3px;
   content: "";
   transition: all 0.4s ease-in-out;
-  background-color: white;
+  background-color: var(--color-primary5);
 }
 
 a:hover::after {
@@ -386,13 +391,13 @@ a:hover::after {
   position: fixed;
   right: 2rem;
   bottom: 5rem;
-  background-color: #f49fbc;
-  color: black;
+  background-color: var(--color-primary4);
+  color: var(--color-secondary1);
   font-size: 2rem;
   padding: 0.5rem 1rem;
   margin: auto;
   border-radius: 25%;
-  border: 10px black;
+  border: 10px var(--color-secondary1);
   display: none;
   z-index: 100;
   cursor: pointer;
