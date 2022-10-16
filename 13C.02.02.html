@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caroline Thostrup Portfolio - 13C.02.03</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="projectStyle.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="progress"></div>
+    <button class="scrollToTop">&#8593;</button>
+    <header>
+      <nav>
+        <a href="index.html" class="logo">CAROLINE THOSTRUP</a>
+        <ul>
+          <li><a href="index.html#projects-section">PROJECTS</a></li>
+          <li><a href="index.html#reflection-sectionID">REFLECTION</a></li>
+        </ul>
+      </nav>
+      <div class="fontUi-Hero lightBg">
+        <img src="assets/13C.02.02/13C.02.02-MockUp.png" alt="mockup of website solution" />
+      </div>
+    </header>
+    <main>
+      <div class="intro-section container">
+        <div class="title">
+          <h1>Design with Frameworks</h1>
+          <h2>13C.02.02</h2>
+        </div>
+
+        <div class="grid_1-1-1">
+          <section class="span-2">
+            <h2>Task</h2>
+            <p class="projectTask">The assignment's task was to use a framework to create a responsive website using pregiven files.</p>
+          </section>
+          <section>
+            <h2>Focus</h2>
+            <ul class="projectFocus">
+              <li>Bootstrap</li>
+              <li>Pico.css</li>
+              <li>Tailwind CSS</li>
+            </ul>
+          </section>
+          <div class="solution-links">
+            <a href="https://github.com/Caro8866/13c.02.02.designing-with-frameworks">link to github repository</a>
+            <a href="https://caro8866.github.io/13c.02.02.designing-with-frameworks/">link to solution prototype</a>
+          </div>
+        </div>
+      </div>
+      <section class="darkBgLightCol">
+        <div class="container">
+          <h3>Process</h3>
+          <div class="grid_1-1-1">
+            <p class="span-3">
+              Before actually working on this project, I played around with all three css frameworks in a sandbox to test them all and see how they work differently. I then decided to use Pico.css as a lot of styling was done automatically when the
+              css was connected to the html.
+            </p>
+          </div>
+          <div class="grid_1-1-1">
+            <img src="assets/13C.02.02/13C.02.02-NavBar.png" class="span-2" alt="4 color tests" />
+            <p class="order-reverse">
+              Styling the navigation was quite easy with Pico. I used the utility class 'container-fluid' to ensure that the navigation bar was always 100vw and items were centered. In order to attain the nav bar look I was searching for I did have
+              to add some additional div's and other elements.
+            </p>
+          </div>
+          <div class="grid_1-1-1">
+            <img src="assets/13C.02.02/13C.02.02-CardUi.png" alt="4 color tests" />
+            <p class="span-2">
+              Styling the UI card was not what I had expected, as Pico's layout method included using a header, body and footer element inside each card to separate the sections. I used a header to hold the image and a body element to hold the card
+              text.
+            </p>
+          </div>
+          <img src="assets/13C.02.02/13C.02.02-CardHtml.png" alt="4 color tests" class />
+        </div>
+      </section>
+      <section class="reflection-section container">
+        <h2>Reflection</h2>
+        <p class="reflection-text">
+          By completing this project I gained knowledge about CSS frameworks and how to work with them to quickly and "easily" create a responsive prototype. It was fun to play around with the different frameworks and see how some were easier than
+          others.
+        </p>
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <a href="index.html" class="logo">CAROLINE THOSTRUP</a>
+        <!--     <ul id="social-links">
+          <li><a href="#" id="linkedIn-icon"></a></li>
+          <li><a href="#" id="codepen-icon"></a></li>
+          <li><a href="#" id="github-icon"></a></li>
+        </ul> -->
+        <ul id="site-nav">
+          <li><a href="index.html#projects-section">PROJECTS</a></li>
+          <li><a href="index.html#reflection-sectionID">REFLECTION</a></li>
+        </ul>
+      </nav>
+    </footer>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
