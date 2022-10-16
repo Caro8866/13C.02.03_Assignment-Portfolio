@@ -157,12 +157,17 @@ header {
   height: 100vh;
   align-items: center;
 }
-
+header section {
+  margin-top: 3rem;
+  align-self: center;
+}
 .profile-image {
-  margin: 1rem auto 0 auto;
-  background-color: var(--color-primary1);
+  background-image: url(assets/ProfilePicture.png);
   height: 50vh;
-  width: 100%;
+  max-width: 500px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
 }
 
 header h1 {
@@ -360,7 +365,6 @@ footer nav {
 /** Laptop 900px+ */
 @media (min-width: 900px) {
 }
-
 /*! ANIMATIONS */
 .progress {
   position: fixed;
