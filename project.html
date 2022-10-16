@@ -6,14 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Caroline Thostrup Portfolio - 13C.02.03</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="projectStyle.css" />
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet" />
+  </head>
   <body>
     <div class="progress"></div>
     <button class="scrollToTop">&#8593;</button>
-    <header class="fontUi-Hero">
+    <header>
       <nav>
         <a href="#" class="logo">CAROLINE THOSTRUP</a>
         <ul>
@@ -21,6 +23,9 @@
           <li><a href="#">REFLECTION</a></li>
         </ul>
       </nav>
+      <div class="fontUi-Hero">
+        <img src="assets/13C.01.02/13C.01.02-MockUp.png" alt="mockup of website solution" />
+      </div>
     </header>
     <main>
       <div class="intro-section container">
@@ -28,29 +33,43 @@
           <h1>Fonts and UI Components</h1>
           <h2>13C.01.01</h2>
         </div>
-        <section>
-          <h2>Task</h2>
-          <p class="projectTask">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Necessitatibus nam quis esse! Accusamus exercitationem nostrum, cumque ab animi nam architecto velit porro atque. Placeat laudantium recusandae modi et nesciunt iure.
-          </p>
-        </section>
-        <section>
-          <h2>Focus</h2>
-          <p class="projectFocus">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-        </section>
+
+        <div class="grid_1-1-1">
+          <section class="span-2">
+            <h2>Task</h2>
+            <p class="projectTask">
+              The assignment's task was to create a mockup landing page design using fonts and gray scales only. There were two parts; first part was to implement a font hierarchy and the second part was to design the UI cards.
+            </p>
+          </section>
+          <section>
+            <h2>Focus</h2>
+            <ul class="projectFocus">
+              <li>Fonts</li>
+              <li>Font Hierarchy</li>
+              <li>Line height</li>
+              <li>Ui Components</li>
+              <li>CSS Flex</li>
+              <li>Shadows</li>
+            </ul>
+          </section>
+          <div class="solution-links">
+            <a href="github">link to github repository</a>
+            <a href="github">link to solution prototype</a>
+          </div>
+        </div>
       </div>
       <section class="darkBgLightCol">
         <div class="container">
           <h3>Process</h3>
-          <div class="detail-section detail-1">
-            <img src="assets/13C.01.01/13C.01.01-typographyDetail.png" class="detail-image" alt="" />
+          <div class="grid_1-1-1 detail-1">
+            <img src="assets/13C.01.01/13C.01.01-typographyDetail.png" class="span-2" alt="" />
             <p class="detail-text-1">
               The fonts I used for this project were Syne and DM Sans, both sans-serifs. I chose two san-serifs as I used a financial website as inspiration, and the website needed to look quite refined, modern and professional. In order to test if
               the fonts looked good together, I used type-scale.com's preview feature.
             </p>
           </div>
-          <div class="detail-section detail-2">
-            <img src="assets/13C.01.01/13C.01.01-UICardDetail.png" class="detail-image" alt="" />
+          <div class="grid_1-1-1 detail-2">
+            <img src="assets/13C.01.01/13C.01.01-UICardDetail.png" alt="" />
             <p class="detail-text-2">
               The second part of this project focused on UI cards. After analysing over UI Card designs in class, we collectively decided on some UI Card design principles. I kept these principles in mind when designs the UI Cards in this project. I
               made use of a subtle background shadow, slightly rounded corners, made sure the media was first and used NO BORDERS!
