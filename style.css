@@ -180,9 +180,11 @@ header p {
 }
 
 /** Lead Text */
-
+.parallax-text {
+  overflow: hidden;
+}
 .lead-text {
-  margin: 2rem 0;
+  /*   margin: 2rem 0; */
   font-family: var(--ff-primary);
   font-size: var(--fs-700);
   font-weight: var(--fw-bold);
@@ -191,14 +193,14 @@ header p {
 }
 
 /** Projects */
-#projects-section {
+.darkBgLightCol {
   background-color: rgb(36, 35, 35);
   color: white;
   padding-top: 3rem;
   padding-bottom: 3rem;
 }
 
-#projects-section h2 {
+.darkBgLightCol h2 {
   text-align: center;
   padding-bottom: 3rem;
 }
@@ -233,26 +235,26 @@ header p {
 }
 
 /** Reflection Section */
-#reflection-section {
+.reflection-section {
   color: black;
   padding: 2rem 0;
   font-family: var(--ff-secondary);
 }
 
-#reflection-section h2 {
+.reflection-section h2 {
   color: red;
   text-align: center;
   padding-bottom: 2rem;
 }
 
-#reflection-section h3 {
+.reflection-section h3 {
   padding: 2rem 0 1rem 0;
 }
-#reflection-section li {
+.reflection-section li {
   line-height: 1.7;
 }
 /* https://www.w3schools.com/HOWTO/howto_css_bullet_color.asp */
-#reflection-section li::before {
+.reflection-section li::before {
   content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: red; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
@@ -275,6 +277,24 @@ footer nav {
   margin: auto;
   margin-bottom: 1rem;
 }
+#social-links > li > a {
+  aspect-ratio: 1/1;
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+}
+#github-icon {
+  background-image: url(assets/githubIcon.png);
+}
+
+#linkedIn-icon {
+  background-image: url(assets/linkedInIcon.png);
+}
+
+#codepen-icon {
+  background-image: url(assets/codepenIcon.png);
+}
+
 #site-nav {
   display: flex;
   flex-flow: row nowrap;
@@ -283,6 +303,13 @@ footer nav {
 
 #site-nav a {
   color: white;
+}
+.copyrightlink {
+  display: flex;
+  align-self: center;
+  opacity: 0.01;
+  background-color: red;
+  height: 0;
 }
 
 /*! Media Quieries */
@@ -311,7 +338,7 @@ footer nav {
     padding: 4rem 0;
     text-align: center;
   }
-  #reflection-section,
+  .reflection-section,
   #projects-section {
     padding: 5rem 0;
   }
