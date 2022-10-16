@@ -6,6 +6,9 @@ header {
 .lightBg {
   background-color: var(--color-primary5);
 }
+.darkBg {
+  background-color: var(--color-secondary2);
+}
 .intro-section {
   gap: 2rem;
   display: flex;
