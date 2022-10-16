@@ -1,0 +1,87 @@
+/* Project Styling */
+header {
+  height: 100%;
+}
+.intro-section {
+  gap: 2rem;
+  display: flex;
+  flex-flow: column nowrap;
+  margin: 2rem auto 3rem;
+}
+
+.intro-section h1 {
+  font-size: calc(var(--fs-900) * 0.6);
+  margin-bottom: 0;
+  line-height: 1;
+  padding: 1rem;
+}
+.intro-section .title h2 {
+  font-size: calc(var(--fs-800) * 0.3);
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  color: red;
+}
+div h2 {
+  font-size: var(--fs-600);
+  color: red;
+  line-height: 1.5;
+}
+body li {
+  line-height: 1.4;
+}
+
+h3 {
+  padding-bottom: 2rem;
+}
+
+.solution-links {
+  grid-column: span 3;
+  display: flex;
+  flex-flow: column wrap;
+  align-self: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.grid_1-1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.detail-2 img {
+  order: 2;
+  grid-column: span 1;
+}
+
+.detail-2 p {
+  grid-column: span 2;
+}
+
+.fontUi-Hero {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+}
+
+.fontUi-Hero img {
+  align-self: center;
+  max-height: 100vh;
+}
+
+.projectFocus {
+  list-style-type: disc;
+  font-family: inherit;
+}
+
+.projectFocus li {
+  font-family: Ubuntu;
+  margin-left: 1rem;
+}
