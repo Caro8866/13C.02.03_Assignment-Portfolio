@@ -2,6 +2,10 @@
 header {
   height: 100%;
 }
+
+.lightBg {
+  background-color: var(--color-primary5);
+}
 .intro-section {
   gap: 2rem;
   display: flex;
@@ -10,7 +14,7 @@ header {
 }
 
 .intro-section h1 {
-  font-size: calc(var(--fs-900) * 0.6);
+  font-size: calc(var(--fs-900) * 0.7);
   margin-bottom: 0;
   line-height: 1;
   padding: 1rem;
@@ -20,11 +24,11 @@ header {
   line-height: 1;
   margin: 0;
   padding: 0;
-  color: red;
+  color: var(--color-primary1);
 }
 div h2 {
   font-size: var(--fs-600);
-  color: red;
+  color: var(--color-primary1);
   line-height: 1.5;
 }
 body li {
@@ -33,49 +37,15 @@ body li {
 
 h3 {
   padding-bottom: 2rem;
+  font-weight: var(--fw-medium);
+  font-size: var(--fs-700);
 }
-
-.solution-links {
-  grid-column: span 3;
-  display: flex;
-  flex-flow: column wrap;
-  align-self: center;
-  align-items: center;
-  gap: 1rem;
+.title {
+  text-align: center;
 }
-
-.grid_1-1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 2rem;
-  margin-bottom: 3rem;
+.title h1 {
+  font-size: var(--fs-700);
 }
-
-.span-2 {
-  grid-column: span 2;
-}
-
-.detail-2 img {
-  order: 2;
-  grid-column: span 1;
-}
-
-.detail-2 p {
-  grid-column: span 2;
-}
-
-.fontUi-Hero {
-  display: flex;
-  flex-flow: column;
-  align-items: center;
-  width: 100%;
-}
-
-.fontUi-Hero img {
-  align-self: center;
-  max-height: 100vh;
-}
-
 .projectFocus {
   list-style-type: disc;
   font-family: inherit;
@@ -84,4 +54,53 @@ h3 {
 .projectFocus li {
   font-family: Ubuntu;
   margin-left: 1rem;
+}
+.solution-links {
+  grid-column: span 3;
+  display: flex;
+  flex-flow: column wrap;
+  align-self: center;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.grid_1-1-1 p {
+  margin: 1rem auto 2.5rem;
+}
+@media (min-width: 900px) {
+  .solution-links a {
+    color: var(--color-primary1);
+    font-weight: var(--fw-bold);
+  }
+
+  .solution-links a::after {
+    background-color: var(--color-primary1);
+  }
+
+  .grid_1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2rem;
+    margin-bottom: 4rem;
+  }
+  .span-2 {
+    grid-column: span 2;
+  }
+
+  .order-reverse {
+    order: -1;
+  }
+
+  .fontUi-Hero {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .fontUi-Hero img {
+    align-self: center;
+    max-height: 100vh;
+  }
 }
