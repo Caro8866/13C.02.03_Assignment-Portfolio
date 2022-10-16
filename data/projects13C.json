@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "number": "13C.01.01",
+    "name": "Fonts and UI Components",
+    "taskDesc": "The assignment's task was to create a mockup landing page design using fonts and gray scales only. There were two parts; first part was to implement a font hierarchy and the second part was to design the UI cards.",
+    "focusAreas": "Fonts, Font Hierarchy, Line height, Ui Components, CSS Flex, Shadows",
+    "mockupImg": "assets/13C.01.01/13C.01.01-MockUp.png",
+    "solutionLink": "https://caro8866.github.io/13c.01.01.fonts-and-components/",
+    "detailText-1": "The fonts I used for this project were Syne and DM Sans, both sans-serifs. I chose two san-serifs as I used a financial website as inspiration, and the website needed to look quite refined, modern and professional. In order to test if the fonts looked good together, I used type-scale.com's preview feature.",
+    "detailImg-1": "assets/13C.01.01/13C.01.01-typographyDetail.png",
+    "detailText-2": "The second part of this project focused on UI cards. After analysing over UI Card designs in class, we collectively decided on some UI Card design principles. I kept these principles in mind when designs the UI Cards in this project.  I made use of a subtle background shadow, slightly rounded corners, made sure the media was first and used NO BORDERS!",
+    "detailImg-2": "assets/13C.01.01/13C.01.01-UICardDetail.png",
+    "reflectionText": "This assignment taught me a lot about typography and how to work with it. Before this, I did not have a lot of experience with working with text and working with lineheight, text padding and text margins. This assignment introduced me to a productive workflow for when starting projects and picking typographs for project."
+  },
+  {
+    "id": 2,
+    "number": "13C.01.02",
+    "name": "Colors and Animations",
+    "taskDesc": "The assignment's task was to apply a color palette to a mockup landing page design and then add animations. There were three parts; the first part was to apply a color palette, the second part was to create a dark theme and the last part was to add animations.",
+    "focusAreas": "Colors, Color Palettes, CSS Variables, Color Contrast, Animations, Motion One, Dark Theme",
+    "mockupImg": "assets/13C.01.01/13C.01.02-MockUp.png",
+    "solutionLink": "https://caro8866.github.io/13C.01.02_Working-with-Colors-and-Animation/",
+    "detailText-1": "To find a color palette for this project, I began by using huemint.com, which is an amazing tool for quicky getting color palette ideas. Using this website, I generated 3 colours, a dark blue, a beige/off-white and a muted red.",
+    "detailImg-1": "assets/13C.01.02/13C.01.02-HueMintColors.png",
+    "detailText-2": "After generating these colors, I used the color tester project, from Peter, to test and visualise how these colors work together. Using the test section I quite quicky preferred the combo in the bottom right(blue as background, beige as text, orange as button).",
+    "detailImg-2": "assets/13C.01.02/13C.01.02-colorComboTests.png",
+    "detailText-3": "Next step was to create CSS variables. Using CSS variables is very beneficial and makes adjusting colors very easy and quick. I used a very simple naming convention for my variables. Primay being the colors(blues) that takes up 60% of the website, secondary colors(beiges) being the 30% and accent colours(orange/red/blue) being the last 10%.",
+    "reflectionText": ""
+  },
+  {
+    "id": 3,
+    "number": "13C.02.02",
+    "name": "Designing with Framesworks",
+    "taskDesc": "The assignment's task was to use a framework to create a responsive website using pregiven files.",
+    "focusAreas": "Bootstrap, Pico, Tailwind",
+    "mockupImg": "assets/13C.01.01/13C.01.02-MockUp.png",
+    "solutionLink": "https://caro8866.github.io/13C.01.02_Working-with-Colors-and-Animation/",
+    "detailText-1": "After experimenting with Bootstrap, Pico.css and Tailwind CSS, i decided to use Pico to complete this assignment. Pico was quite simple to use as a lot of styling was applied right after connecting it to the site.",
+    "detailImg-1": "assets/13C.02.02/13C.02.02-",
+    "detailText-2": "",
+    "detailImg-2": "assets/13C.02.02/13C.02.02-",
+    "detailText-3": "",
+    "reflectionText": ""
+  }
+]
